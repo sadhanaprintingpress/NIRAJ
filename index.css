@@ -46,10 +46,7 @@ main {
 }
 
 .info, .post {
-    background-color: #1e1e1e;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  background: linear-gradient(135deg, #223366, #7b2020, #dc8a39);
 }
 
 .info h2, .post h2 {
