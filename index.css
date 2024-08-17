@@ -45,9 +45,15 @@ main {
     padding: 20px 0;
 }
 
-.info, .post {
+/* .info, .post {
 
     background: linear-gradient(135deg, #223366, #7b2020, #dc8a39);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+} */
+.info, .post {
+    background: linear-gradient(135deg, rgba(34, 51, 102, 0.7), rgba(123, 32, 32, 0.7), rgba(220, 138, 57, 0.7));
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -75,12 +81,37 @@ footer {
 footer .social-links {
     margin-top: 10px;
 }
+.phone-link {
+    color: #1a73e8; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+.phone-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 
 .w1 {
-    color: white;
+    color: #ffffff; 
+    background-color: #ff5722; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; 
+    font-size: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.w1:hover {
+    background-color: #e64a19; 
+    color: #ffffff; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 .loc {
     color: #5B99C2;
-}
 }
